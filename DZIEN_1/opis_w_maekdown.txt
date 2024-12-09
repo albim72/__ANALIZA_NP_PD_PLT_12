@@ -1,0 +1,6 @@
+To jest pierwszy notebook w **Datalore** - uczymy się pakietu <span style="color:red;font-size:15pt;">Numpy</span>
+<br>
+<table>
+    <tr><td>Wersja programu</td><td>Data</td></tr>
+    <tr><td>1.2</td><td>12.07.2024</td></tr>
+</table>
