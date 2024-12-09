@@ -89,3 +89,7 @@ print(osoba)
 print(osoba.keys())
 print(osoba.values())
 print(osoba.items())
+
+nb = [3,5,2,5,3,2,4,6,7,8,4,3,5,3,2,4]
+nb = list(set(nb))
+print(nb)
