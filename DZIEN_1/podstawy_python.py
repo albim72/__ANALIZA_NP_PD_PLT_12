@@ -61,3 +61,31 @@ print(nlista)
 print(nlista[1])
 print(nlista[1][0])
 print(nlista[1][0][2])
+
+#zbiór
+drzewa = {"jodła","buk","dąb","jesion","dąb"}
+print(drzewa)
+print(type(drzewa))
+
+drzewa.add("osika")
+print(drzewa)
+drzewa.remove("jesion")
+print(drzewa)
+drzewa.discard("sosna")
+
+#słownik
+osoba = {
+    "imię":"Iwona",
+    "nazwisko":"Kot",
+    "miasto":"Toruń",
+    "wiek":30
+}
+
+print(osoba)
+print(osoba["wiek"])
+osoba["ulica"] = "Czerwcowa 23"
+print(osoba)
+
+print(osoba.keys())
+print(osoba.values())
+print(osoba.items())
